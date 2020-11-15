@@ -1,0 +1,24 @@
+{
+    "Health":[
+        "http://www.nih.gov",
+        "http://www.webmd.com",
+        "http://www.who.int",
+        "http://www.cdc.gov",
+        "http://www.mayoclinic.org",
+        "http://www.myfitnesspal.com",
+        "http://www.psychologytoday.com",
+        "http://www.medlineplus.gov",
+        "http://www.nhs.uk",
+        "http://www.weightwatchers.com",
+        "http://www.fda.gov",
+        "http://www.menshealth.com",
+        "http://www.apa.org",
+        "http://www.verywellhealth.com",
+        "http://www.verywellmind.com",
+        "http://www.bmj.com",
+        "http://www.kidshealth.org",
+        "http://www.clevelandclinic.org",
+        "http://www.self.com",
+        "http://www.healthgrades.com"
+    ]
+}

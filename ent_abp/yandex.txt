@@ -1,0 +1,15 @@
+||an.yandex.ru^
+?target-ref=
+||mc.yandex.ru^
+||yandex.ru/metrika/
+||bs.yandex.ru^
+||adfox.yandex.ru^
+/rsya-tag-users/*
+||yandex.*/data?referrer=
+||yandex.*/count/
+||yandex.ru/cycounter?
+||awaps.yandex.ru^
+||informer.yandex.ru^
+/metrika/watch_
+/spacer.gif?
+||kiks.yandex.

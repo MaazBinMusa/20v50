@@ -1,0 +1,7 @@
+/quant.js
+||quantserve.com/pixel;
+||widget.quantcast.com^
+/pixel.gif?
+.adserver.
+||quantserve.com/api/
+/quantserve.com/*

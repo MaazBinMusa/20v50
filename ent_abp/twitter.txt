@@ -1,0 +1,15 @@
+/ad_img/*
+||twitter.com/i/jot
+||twitter.com/jot.html
+||analytics.twitter.com^
+/adsct?
+||twitter.com/oct.js
+.com/f.gif?
+&advtile=
+/t.gif?
+||twimg.com/jot?
+&adstype=
+&ad_type=
+&ad_type_
+&jumpstartadformat=
+&adname=
