@@ -98,6 +98,8 @@ def RTB_imgs(path,file_name,site):
 
 def mainfunc(config_path, mode):
   
+  mode = str(mode)
+  
   if(os.path.exists(config_path)):
       data = open(config_path,'r').read()
       data = json.loads(data)
