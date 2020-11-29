@@ -8,7 +8,6 @@ sites = 5
 
 for i in range(1,11,2):
 	
-	break
 
 	p1  = multiprocessing.Process(target=mainfunc, args=("config/20_50/Adult/{}_Adult_browser_params_{}.json".format(str(sites),str(i)),1))
 	p2  = multiprocessing.Process(target=mainfunc, args=("config/20_50/Adult/{}_Adult_browser_params_{}.json".format(str(sites),str(i+1)),1))

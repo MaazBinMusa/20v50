@@ -1,0 +1,1 @@
+index,id,crawl_id,visit_id,url,top_level_url,method,referrer,headers,channel_id,is_XHR,is_frame_load,is_full_page,is_third_party_channel,is_third_party_to_top_window,triggering_origin,loading_origin,loading_href,req_call_stack,content_policy_type,post_body,time_stamp

@@ -1,0 +1,905 @@
+2020-11-29 05:31:38,592 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Spawn attempt 0 
+2020-11-29 05:31:38,800 - Process-38 [MainThread] - deploy_firefox       - DEBUG   : BROWSER 1: OpenWPM Firefox extension loaded
+2020-11-29 05:31:43,597 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:31:43,805 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645898847	geckodriver	INFO	Listening on 127.0.0.1:47591
+2020-11-29 05:31:43,806 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645899906	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.NzA3t8Y4K5Tq
+2020-11-29 05:31:43,806 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645899911	geckodriver::marionette	INFO	Starting browser /home/data/maaz/Ads/20v50/firefox-bin/firefox-bin with args []
+2020-11-29 05:31:43,806 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645900016	geckodriver::marionette	INFO	Connecting to Marionette on localhost:39193
+2020-11-29 05:31:43,807 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903520	addons.manager	DEBUG	Application has been upgraded
+2020-11-29 05:31:43,807 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903560	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+2020-11-29 05:31:43,807 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903566	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+2020-11-29 05:31:43,807 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903574	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+2020-11-29 05:31:43,807 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903578	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+2020-11-29 05:31:43,807 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903580	addons.manager	DEBUG	Starting provider: XPIProvider
+2020-11-29 05:31:43,808 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903580	addons.xpi	DEBUG	startup
+2020-11-29 05:31:43,808 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903582	addons.xpi	INFO	Mapping @openwpm to /home/data/tmp/rust_mozprofile.NzA3t8Y4K5Tq/extensions/@openwpm
+2020-11-29 05:31:43,808 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903582	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2020-11-29 05:31:43,808 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903584	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 05:31:43,808 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903584	addons.xpi	INFO	Mapping webcompat@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 05:31:43,808 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903584	addons.xpi	INFO	Mapping firefox@getpocket.com to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 05:31:43,809 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903584	addons.xpi	INFO	Mapping aushelper@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 05:31:43,809 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903586	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+2020-11-29 05:31:43,809 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903588	addons.xpi	DEBUG	checkForChanges
+2020-11-29 05:31:43,809 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903588	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2020-11-29 05:31:43,809 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903588	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+2020-11-29 05:31:43,809 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903590	addons.xpi	DEBUG	New add-on @openwpm in app-profile
+2020-11-29 05:31:43,809 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903590	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2020-11-29 05:31:43,809 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903594	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+2020-11-29 05:31:43,810 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903596	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2020-11-29 05:31:43,810 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903598	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+2020-11-29 05:31:43,810 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903598	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2020-11-29 05:31:43,810 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903600	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+2020-11-29 05:31:43,810 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903600	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2020-11-29 05:31:43,810 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903600	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+2020-11-29 05:31:43,810 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903602	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2020-11-29 05:31:43,811 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903602	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+2020-11-29 05:31:43,811 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903602	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2020-11-29 05:31:43,811 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903602	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"@openwpm":{"d":"/home/data/tmp/rust_mozprofile.NzA3t8Y4K5Tq/extensions/@openwpm","st":1606645899000,"mt":1606645899000}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","st":1606628784000},"webcompat@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi","st":1606628784000},"firefox@getpocket.com":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi","st":1606628784000},"aushelper@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi","st":1606628784000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1606628784000}}}
+2020-11-29 05:31:43,811 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903618	addons.xpi-utils	DEBUG	Opening XPI database /home/data/tmp/rust_mozprofile.NzA3t8Y4K5Tq/extensions.json
+2020-11-29 05:31:43,811 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903620	addons.xpi-utils	DEBUG	New add-on @openwpm installed in app-profile
+2020-11-29 05:31:43,811 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+2020-11-29 05:31:43,811 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903642	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,811 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903642	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903646	DeferredSave.extensions.json	DEBUG	Starting timer
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903648	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903648	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903656	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903656	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903668	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903668	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903672	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,812 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903674	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+2020-11-29 05:31:43,813 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903680	DeferredSave.extensions.json	DEBUG	Starting write
+2020-11-29 05:31:43,813 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903686	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,813 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903686	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+2020-11-29 05:31:43,813 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903686	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2020-11-29 05:31:43,813 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903686	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2020-11-29 05:31:43,813 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903698	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/tmp/rust_mozprofile.NzA3t8Y4K5Tq/extensions/@openwpm
+2020-11-29 05:31:43,813 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903780	addons.xpi	DEBUG	Calling bootstrap method install on @openwpm version 0.0.1
+2020-11-29 05:31:43,813 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903780	addons.xpi-utils	DEBUG	Make addon app-profile:@openwpm visible
+2020-11-29 05:31:43,814 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903786	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,814 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903788	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,814 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903788	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+2020-11-29 05:31:43,814 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903788	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 05:31:43,814 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903790	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.10
+2020-11-29 05:31:43,814 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903792	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,814 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903792	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,814 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903794	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+2020-11-29 05:31:43,815 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903794	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,815 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903794	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,815 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903794	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+2020-11-29 05:31:43,815 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903794	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 05:31:43,815 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903796	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+2020-11-29 05:31:43,815 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903796	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+2020-11-29 05:31:43,815 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903796	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,815 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903796	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,816 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903798	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+2020-11-29 05:31:43,816 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903798	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 05:31:43,816 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903802	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+2020-11-29 05:31:43,816 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903802	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+2020-11-29 05:31:43,816 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903802	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,816 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903802	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,816 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903802	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+2020-11-29 05:31:43,816 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903802	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 05:31:43,836 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903804	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+2020-11-29 05:31:43,837 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903804	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+2020-11-29 05:31:43,837 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903806	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,837 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903806	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,837 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903806	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+2020-11-29 05:31:43,837 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903806	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,837 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903806	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,838 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903806	addons.xpi	DEBUG	Updating XPIState for {"id":"@openwpm","syncGUID":"{f73435cb-69f1-42f8-a25f-176bf4a19e84}","location":"app-profile","version":"0.0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"openwpm","description":"Extension with socket interface into OpenWPM","creator":"Steven Englehardt","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/tmp/rust_mozprofile.NzA3t8Y4K5Tq/extensions/@openwpm","installDate":1606645899000,"updateDate":1606645899000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":84784,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 05:31:43,838 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903806	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2020-11-29 05:31:43,838 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903808	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{5e64f35c-5d4a-4ed0-ae13-c99486b1a477}","location":"app-system-defaults","version":"1.10","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8145,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 05:31:43,838 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903808	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2020-11-29 05:31:43,838 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903808	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{18c3e703-e1aa-4a84-b104-8c0009bf5247}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 05:31:43,838 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903808	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2020-11-29 05:31:43,838 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903808	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{97a71580-9e25-4de7-a214-1ebb25b9b58e}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 05:31:43,839 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903808	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2020-11-29 05:31:43,839 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903808	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{c73fa9c5-dac4-4774-a187-6a21ebab6abd}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 05:31:43,839 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903808	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2020-11-29 05:31:43,839 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903810	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{725247dc-6eec-4407-b9ad-168185b5038d}","location":"app-global","version":"52.9.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.9.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+2020-11-29 05:31:43,839 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903810	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2020-11-29 05:31:43,839 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903810	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 05:31:43,839 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903810	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 05:31:43,839 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903810	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+2020-11-29 05:31:43,840 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903810	addons.xpi-utils	DEBUG	Updating add-on states
+2020-11-29 05:31:43,840 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903812	addons.xpi-utils	DEBUG	Writing add-ons list
+2020-11-29 05:31:43,840 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903814	addons.xpi	DEBUG	Registering manifest for /home/data/tmp/rust_mozprofile.NzA3t8Y4K5Tq/extensions/@openwpm
+2020-11-29 05:31:43,840 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903814	addons.xpi	DEBUG	Calling bootstrap method startup on @openwpm version 0.0.1
+2020-11-29 05:31:43,840 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903820	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 05:31:43,840 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903820	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+2020-11-29 05:31:43,840 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903820	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 05:31:43,841 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903822	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+2020-11-29 05:31:43,841 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903822	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 05:31:43,841 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903822	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+2020-11-29 05:31:43,841 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903824	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 05:31:43,841 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903824	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+2020-11-29 05:31:43,841 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903828	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+2020-11-29 05:31:43,841 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903828	addons.manager	DEBUG	Provider finished startup: XPIProvider
+2020-11-29 05:31:43,841 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903828	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+2020-11-29 05:31:43,842 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903828	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+2020-11-29 05:31:43,842 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903828	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+2020-11-29 05:31:43,842 - Process-38 [log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606645903828	addons.manager	DEBUG	Starting provider: GMPProvider
+2020-11-29 05:31:48,604 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:31:51,892 - Process-38 [MainThread] - FirefoxExtension     - DEBUG   : Cookie instrumentation enabled
+2020-11-29 05:31:51,893 - Process-38 [MainThread] - FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2020-11-29 05:31:51,984 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Looking for extension port information in /tmp/rust_mozprofile.NzA3t8Y4K5Tq/
+2020-11-29 05:31:51,985 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Connecting to extension on port 35929
+2020-11-29 05:31:51,985 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: BrowserManager ready.
+2020-11-29 05:31:51,986 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Browser spawn sucessful!
+2020-11-29 05:31:53,009 - Process-38 [MainThread] - TaskManager          - INFO    : 
+
+OpenWPM Version: 44dd020
+Firefox Version: 52.9.0
+
+========== Manager Configuration ==========
+{
+  "aggregator_address": [
+    "127.0.0.1",
+    53845
+  ],
+  "data_directory": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8",
+  "database_name": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/1_crawl-data.sqlite",
+  "failure_limit": null,
+  "log_directory": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8",
+  "log_file": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    44245
+  ],
+  "num_browsers": 1,
+  "output_format": "local",
+  "screenshot_path": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/screenshots",
+  "source_dump_path": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/sources",
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "crawl_id": 0,
+  "Ad_Sites": 1,
+  "Browser_Config": 2,
+  "Browser_Config_Def": 3,
+  "Intent": 4,
+  "Intent_Sites": 5,
+  "Manager_Config": 6,
+  "Manager_Config_Def": 7,
+  "Number_of_Browsers": 8,
+  "Persona_Name": 9,
+  "Persona_Numb": 10,
+  "Persona_Path": 11,
+  "Sites": 12,
+  "Storage_File": 13,
+  "adblock-plus": 14,
+  "bot_mitigation": 15,
+  "browser": 16,
+  "cookie_instrument": 17,
+  "disable_flash": 18,
+  "disconnect": 19,
+  "donottrack": 20,
+  "extension_enabled": 21,
+  "ghostery": 22,
+  "headless": 23,
+  "http_instrument": 24,
+  "https-everywhere": 25,
+  "js_instrument": 26,
+  "prefs": 27,
+  "random_attributes": 28,
+  "save_all_content": 29,
+  "save_javascript": 30,
+  "storage_file": 31,
+  "tp_cookies": 32,
+  "tracking-protection": 33,
+  "ublock-origin": 34
+}
+
+  0  1                                 2                                                 3                            4         5    6                                                 7                              8  9             10  11             12                                                                                                                                          13          14     15    16       17    18     19     20     21    22     23    24    25     26     27    28     29     30     31          32      33     34
+---  --------------------------------  ------------------------------------------------  ---------------------------  --------  ---  ------------------------------------------------  ---------------------------  ---  ----------  ----  -------------  ------------------------------------------------------------------------------------------------------------------------------------------  ----------  -----  ----  -------  ----  -----  -----  -----  ----  -----  ----  ----  -----  -----  ----  -----  -----  -----  ----------  ------  -----  -----
+  1  [u'https://www.accuweather.com']  config/20_50/Adult/5_Adult_browser_params_8.json  default_browser_params.json  NoIntent  []   config/20_50/Adult/5_Adult_manager_params_8.json  default_manager_params.json    1  Adult.json     8  data/personas  [u'http://www.xvideos.com', u'http://www.chaturbate.com', u'http://www.xnxx.com', u'http://www.youporn.com', u'http://www.livejasmin.com']  storage.js  False  True  firefox  True  False  False  False  True  False  True  True  False  False  {}    False  False  False  storage.js  always  False  False
+
+========== Input profile tar files ==========
+  No profile tar files specified
+
+========== Output (archive) profile dirs ==========
+{
+  "1": "data/20_50/adult_5_8"
+}
+
+
+2020-11-29 05:31:53,010 - Process-38 [MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2020-11-29 05:31:53,114 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('GET', u'http://www.xvideos.com', 60, 1)
+2020-11-29 05:31:53,611 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 1
+2020-11-29 05:31:54,470 - Process-38 [MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 1
+2020-11-29 05:31:56,839 - Process-38 [MainThread] - FirefoxExtension     - ERROR   : Error while retrieving additional channel information for URL: 
+http://www.xvideos.com/favicon-16x16.png
+ Error text:{}
+2020-11-29 05:31:59,224 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:04,228 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:09,235 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:14,241 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:19,247 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:24,253 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:29,258 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:34,264 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:39,270 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:44,276 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:49,283 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:54,289 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:32:59,295 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 4
+2020-11-29 05:33:01,678 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('DUMP_PROFILE_COOKIES', 1606645913.112318, 1)
+2020-11-29 05:33:04,142 - Process-38 [MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2020-11-29 05:33:04,245 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('GET', u'http://www.chaturbate.com', 60, 2)
+2020-11-29 05:33:04,285 - Process-38 [MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 2
+2020-11-29 05:33:04,979 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 40
+2020-11-29 05:33:05,566 - Process-38 [MainThread] - FirefoxExtension     - ERROR   : Error while retrieving additional channel information for URL: 
+https://ssl-ccstatic.highwebmedia.com/favicons/favicon-96x96.png
+ Error text:{}
+2020-11-29 05:33:10,414 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:15,420 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:20,424 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:25,431 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:30,437 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:35,443 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:40,450 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:45,456 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:50,463 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:33:55,470 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:00,476 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:05,483 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:10,814 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:15,978 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('DUMP_PROFILE_COOKIES', 1606645984.244279, 2)
+2020-11-29 05:34:16,382 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 5
+2020-11-29 05:34:19,072 - Process-38 [MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2020-11-29 05:34:19,175 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('GET', u'http://www.xnxx.com', 60, 3)
+2020-11-29 05:34:19,220 - Process-38 [MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 3
+2020-11-29 05:34:19,585 - Process-38 [MainThread] - FirefoxExtension     - ERROR   : Error while retrieving additional channel information for URL: 
+http://www.xnxx.com/favicon-16x16.png
+ Error text:{}
+2020-11-29 05:34:21,728 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:26,900 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:31,906 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:36,912 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:41,918 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:46,925 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:51,931 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:34:56,936 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:35:01,942 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:35:06,949 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:35:11,955 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:35:16,961 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:35:21,967 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 2
+2020-11-29 05:35:27,376 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 6
+2020-11-29 05:35:32,838 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:35:36,859 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('DUMP_PROFILE_COOKIES', 1606646059.173833, 3)
+2020-11-29 05:35:37,844 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 4
+2020-11-29 05:35:39,325 - Process-38 [MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2020-11-29 05:35:39,427 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('GET', u'http://www.youporn.com', 60, 4)
+2020-11-29 05:35:39,470 - Process-38 [MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 4
+2020-11-29 05:35:43,967 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 1
+2020-11-29 05:35:49,239 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:35:54,244 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:35:59,251 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:04,257 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:09,263 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:14,271 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:19,277 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:24,283 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:29,289 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:34,295 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:39,301 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:44,575 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:49,787 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:36:51,958 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('DUMP_PROFILE_COOKIES', 1606646139.427154, 4)
+2020-11-29 05:36:54,468 - Process-38 [MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2020-11-29 05:36:54,570 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Joining command thread
+2020-11-29 05:36:54,571 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('GET', u'http://www.livejasmin.com', 60, 5)
+2020-11-29 05:36:54,608 - Process-38 [MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 5
+2020-11-29 05:36:54,945 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 5
+2020-11-29 05:36:55,338 - Process-38 [MainThread] - FirefoxExtension     - ERROR   : Error while retrieving additional channel information for URL: 
+https://www.livejasmin.com/favicon.ico?v=2
+ Error text:{}
+2020-11-29 05:37:00,201 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 51
+2020-11-29 05:37:05,395 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:10,401 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:15,407 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:20,414 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:25,420 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:30,425 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:35,432 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:40,437 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:45,442 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:50,448 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:37:55,453 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:38:00,690 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 14
+2020-11-29 05:38:02,186 - Process-38 [MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('DUMP_PROFILE_COOKIES', 1606646214.57024, 5)
+2020-11-29 05:38:02,719 - Process-38 [MainThread] - FirefoxExtension     - ERROR   : Error while retrieving additional channel information for URL: 
+https://staticx1.dditscdn.com/jsm2/site/livejasmin/video/tv.mp4
+ Error text:{}
+2020-11-29 05:38:04,747 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: 70.176940 seconds to join command thread
+2020-11-29 05:38:04,748 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Killing browser manager...
+2020-11-29 05:38:04,748 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Attempting to kill BrowserManager with pid 120086. Display PID: 120127 | Display Port: 0 | Browser PID: 120404
+2020-11-29 05:38:04,748 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Display process does not exit
+2020-11-29 05:38:04,749 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Screen lockfile (/tmp/.X0-lock) already removed
+2020-11-29 05:38:04,844 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Geckodriver process already killed.
+2020-11-29 05:38:04,844 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: during_init=False | profile_archive_dir=data/20_50/adult_5_8
+2020-11-29 05:38:04,845 - Process-38 [MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Archiving browser profile directory to data/20_50/adult_5_8
+2020-11-29 05:38:04,846 - Process-38 [MainThread] - profile_commands     - DEBUG   : BROWSER 1: Backing up full profile from /tmp/rust_mozprofile.NzA3t8Y4K5Tq/ to data/20_50/adult_5_8/profile.tar.gz
+2020-11-29 05:38:04,985 - Process-38 [MainThread] - profile_commands     - WARNING : BROWSER 1: /tmp/rust_mozprofile.NzA3t8Y4K5Tq/webapps NOT FOUND IN profile folder, skipping.
+2020-11-29 05:38:04,993 - Process-38 [MainThread] - profile_commands     - DEBUG   : BROWSER 1: SAVING /home/maaz/.macromedia/Flash_Player/#SharedObjects during flash file archive
+2020-11-29 05:38:04,995 - Process-38 [MainThread] - profile_commands     - DEBUG   : BROWSER 1: SAVING /home/maaz/.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys during flash file archive
+2020-11-29 05:38:05,019 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Sending the shutdown signal to the LocalAggregator listener process...
+2020-11-29 05:38:05,891 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 05:38:05,892 - Process-38 [MainThread] - BaseAggregator       - INFO    : Received shutdown signal!
+2020-11-29 05:38:09,092 - Process-38 [MainThread] - BaseAggregator       - DEBUG   : LocalAggregator took 4.07284808159 seconds to close.
+2020-11-29 09:39:15,193 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Spawn attempt 0 
+2020-11-29 09:39:15,225 - Process-104[MainThread] - deploy_firefox       - DEBUG   : BROWSER 1: Loading initial browser profile from: data/20_50/adult_5_8
+2020-11-29 09:39:15,226 - Process-104[MainThread] - profile_commands     - DEBUG   : BROWSER 1: Copying profile tar from data/20_50/adult_5_8/profile.tar.gz to /tmp/tmpaZH_Mv/
+2020-11-29 09:39:15,324 - Process-104[MainThread] - profile_commands     - DEBUG   : BROWSER 1: Tarfile extracted
+2020-11-29 09:39:15,324 - Process-104[MainThread] - profile_commands     - DEBUG   : BROWSER 1: CLEARING /home/maaz/.macromedia/Flash_Player/#SharedObjects before loading flash files
+2020-11-29 09:39:15,327 - Process-104[MainThread] - profile_commands     - DEBUG   : BROWSER 1: CLEARING /home/maaz/.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys before loading flash files
+2020-11-29 09:39:15,478 - Process-104[MainThread] - deploy_firefox       - DEBUG   : BROWSER 1: OpenWPM Firefox extension loaded
+2020-11-29 09:39:17,522 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660755523	geckodriver	INFO	Listening on 127.0.0.1:57199
+2020-11-29 09:39:17,523 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660756691	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.GWxKflO9OWuQ
+2020-11-29 09:39:17,523 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660756790	geckodriver::marionette	INFO	Starting browser /home/data/maaz/Ads/20v50/firefox-bin/firefox-bin with args []
+2020-11-29 09:39:17,523 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660756798	geckodriver::marionette	INFO	Connecting to Marionette on localhost:34275
+2020-11-29 09:39:17,523 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757308	addons.manager	DEBUG	Application has been upgraded
+2020-11-29 09:39:17,523 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757328	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+2020-11-29 09:39:17,523 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757332	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+2020-11-29 09:39:17,523 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757334	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+2020-11-29 09:39:17,524 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757336	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+2020-11-29 09:39:17,524 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757338	addons.manager	DEBUG	Starting provider: XPIProvider
+2020-11-29 09:39:17,524 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757338	addons.xpi	DEBUG	startup
+2020-11-29 09:39:17,524 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757338	addons.xpi	INFO	Mapping @openwpm to /home/data/tmp/rust_mozprofile.GWxKflO9OWuQ/extensions/@openwpm
+2020-11-29 09:39:17,524 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757340	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2020-11-29 09:39:17,524 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757340	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 09:39:17,524 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757340	addons.xpi	INFO	Mapping webcompat@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 09:39:17,524 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757340	addons.xpi	INFO	Mapping firefox@getpocket.com to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757340	addons.xpi	INFO	Mapping aushelper@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757342	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757342	addons.xpi	DEBUG	checkForChanges
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757342	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757342	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757344	addons.xpi	DEBUG	New add-on @openwpm in app-profile
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757344	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757346	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757346	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2020-11-29 09:39:17,525 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757348	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757348	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757348	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757348	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757348	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757350	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757350	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757350	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757350	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"@openwpm":{"d":"/home/data/tmp/rust_mozprofile.GWxKflO9OWuQ/extensions/@openwpm","st":1606660756000,"mt":1606660756000}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","st":1606628784000},"webcompat@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi","st":1606628784000},"firefox@getpocket.com":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi","st":1606628784000},"aushelper@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi","st":1606628784000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1606628784000}}}
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757358	addons.xpi-utils	DEBUG	Opening XPI database /home/data/tmp/rust_mozprofile.GWxKflO9OWuQ/extensions.json
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757360	addons.xpi-utils	DEBUG	New add-on @openwpm installed in app-profile
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+2020-11-29 09:39:17,526 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757374	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757374	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757378	DeferredSave.extensions.json	DEBUG	Starting timer
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757382	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757382	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757388	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757388	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757396	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757396	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757402	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757402	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757406	DeferredSave.extensions.json	DEBUG	Starting write
+2020-11-29 09:39:17,527 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757410	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757410	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757412	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757412	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757420	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/tmp/rust_mozprofile.GWxKflO9OWuQ/extensions/@openwpm
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757502	addons.xpi	DEBUG	Calling bootstrap method install on @openwpm version 0.0.1
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757502	addons.xpi-utils	DEBUG	Make addon app-profile:@openwpm visible
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757506	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757506	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757508	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757508	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 09:39:17,528 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757510	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.10
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757510	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757510	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757510	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757512	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757512	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757512	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757512	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757514	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757514	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+2020-11-29 09:39:17,529 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757514	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757514	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757514	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757514	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757518	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757518	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757518	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757518	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757520	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+2020-11-29 09:39:17,530 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757520	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 09:39:17,552 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757522	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+2020-11-29 09:39:17,553 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757522	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+2020-11-29 09:39:17,553 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757522	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,553 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757522	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,553 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757522	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+2020-11-29 09:39:17,553 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757522	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,554 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757522	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,554 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757524	addons.xpi	DEBUG	Updating XPIState for {"id":"@openwpm","syncGUID":"{2b3fba89-82ce-4ebf-a10f-e8f0658471de}","location":"app-profile","version":"0.0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"openwpm","description":"Extension with socket interface into OpenWPM","creator":"Steven Englehardt","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/tmp/rust_mozprofile.GWxKflO9OWuQ/extensions/@openwpm","installDate":1606660756000,"updateDate":1606660756000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":84784,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:39:17,554 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757524	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2020-11-29 09:39:17,554 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757524	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{11143178-b62c-42f3-91ac-b88f80b20d61}","location":"app-system-defaults","version":"1.10","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8145,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:39:17,554 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757524	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2020-11-29 09:39:17,554 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757524	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{3cf5424c-b4c5-4806-82a4-21fe87ec332d}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:39:17,555 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757524	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2020-11-29 09:39:17,555 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{7ff82755-3e85-4baa-9f32-1b54d7c4825c}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:39:17,555 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2020-11-29 09:39:17,555 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{db47587d-96b7-4ebc-81d1-19a2ebd1d3e5}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:39:17,555 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2020-11-29 09:39:17,555 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{fda79536-18a5-4486-b229-9878a95ea807}","location":"app-global","version":"52.9.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.9.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+2020-11-29 09:39:17,556 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2020-11-29 09:39:17,556 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:39:17,556 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:39:17,556 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+2020-11-29 09:39:17,556 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757526	addons.xpi-utils	DEBUG	Updating add-on states
+2020-11-29 09:39:17,556 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757528	addons.xpi-utils	DEBUG	Writing add-ons list
+2020-11-29 09:39:17,556 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757530	addons.xpi	DEBUG	Registering manifest for /home/data/tmp/rust_mozprofile.GWxKflO9OWuQ/extensions/@openwpm
+2020-11-29 09:39:17,557 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757530	addons.xpi	DEBUG	Calling bootstrap method startup on @openwpm version 0.0.1
+2020-11-29 09:39:17,557 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757534	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 09:39:17,557 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757536	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+2020-11-29 09:39:17,557 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757536	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 09:39:17,557 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757538	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+2020-11-29 09:39:17,557 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757538	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 09:39:17,558 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757538	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+2020-11-29 09:39:17,558 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757540	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 09:39:17,558 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757540	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+2020-11-29 09:39:17,558 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757544	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+2020-11-29 09:39:17,558 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757544	addons.manager	DEBUG	Provider finished startup: XPIProvider
+2020-11-29 09:39:17,558 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757544	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+2020-11-29 09:39:17,558 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757544	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+2020-11-29 09:39:17,558 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757544	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+2020-11-29 09:39:17,559 - Process-104[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606660757544	addons.manager	DEBUG	Starting provider: GMPProvider
+2020-11-29 09:39:20,198 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:39:21,903 - Process-104[MainThread] - FirefoxExtension     - DEBUG   : Cookie instrumentation enabled
+2020-11-29 09:39:21,904 - Process-104[MainThread] - FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2020-11-29 09:39:21,991 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Looking for extension port information in /tmp/rust_mozprofile.GWxKflO9OWuQ/
+2020-11-29 09:39:21,992 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Connecting to extension on port 33657
+2020-11-29 09:39:21,992 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: BrowserManager ready.
+2020-11-29 09:39:21,992 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Browser spawn sucessful!
+2020-11-29 09:39:22,727 - Process-104[MainThread] - TaskManager          - INFO    : 
+
+OpenWPM Version: 44dd020
+Firefox Version: 52.9.0
+
+========== Manager Configuration ==========
+{
+  "aggregator_address": [
+    "127.0.0.1",
+    58327
+  ],
+  "data_directory": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8",
+  "database_name": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/2_crawl-data.sqlite",
+  "failure_limit": null,
+  "log_directory": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8",
+  "log_file": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    51399
+  ],
+  "num_browsers": 1,
+  "output_format": "local",
+  "screenshot_path": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/screenshots",
+  "source_dump_path": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/sources",
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "crawl_id": 0,
+  "Ad_Sites": 1,
+  "Browser_Config": 2,
+  "Browser_Config_Def": 3,
+  "Intent": 4,
+  "Intent_Sites": 5,
+  "Manager_Config": 6,
+  "Manager_Config_Def": 7,
+  "Number_of_Browsers": 8,
+  "Persona_Name": 9,
+  "Persona_Numb": 10,
+  "Persona_Path": 11,
+  "Sites": 12,
+  "Storage_File": 13,
+  "adblock-plus": 14,
+  "bot_mitigation": 15,
+  "browser": 16,
+  "cookie_instrument": 17,
+  "disable_flash": 18,
+  "disconnect": 19,
+  "donottrack": 20,
+  "extension_enabled": 21,
+  "ghostery": 22,
+  "headless": 23,
+  "http_instrument": 24,
+  "https-everywhere": 25,
+  "js_instrument": 26,
+  "prefs": 27,
+  "random_attributes": 28,
+  "save_all_content": 29,
+  "save_javascript": 30,
+  "storage_file": 31,
+  "tp_cookies": 32,
+  "tracking-protection": 33,
+  "ublock-origin": 34
+}
+
+  0  1                                 2                                                 3                            4         5    6                                                 7                              8  9             10  11             12                                                                                                                                          13          14     15    16       17    18     19     20     21    22     23    24    25     26     27    28     29     30     31          32      33     34
+---  --------------------------------  ------------------------------------------------  ---------------------------  --------  ---  ------------------------------------------------  ---------------------------  ---  ----------  ----  -------------  ------------------------------------------------------------------------------------------------------------------------------------------  ----------  -----  ----  -------  ----  -----  -----  -----  ----  -----  ----  ----  -----  -----  ----  -----  -----  -----  ----------  ------  -----  -----
+  1  [u'https://www.accuweather.com']  config/20_50/Adult/5_Adult_browser_params_8.json  default_browser_params.json  NoIntent  []   config/20_50/Adult/5_Adult_manager_params_8.json  default_manager_params.json    1  Adult.json     8  data/personas  [u'http://www.xvideos.com', u'http://www.chaturbate.com', u'http://www.xnxx.com', u'http://www.youporn.com', u'http://www.livejasmin.com']  storage.js  False  True  firefox  True  False  False  False  True  False  True  True  False  False  {}    False  False  False  storage.js  always  False  False
+
+========== Input profile tar files ==========
+{
+  "1": "data/20_50/adult_5_8"
+}
+
+========== Output (archive) profile dirs ==========
+{
+  "1": "data/20_50/adult_5_8"
+}
+
+
+2020-11-29 09:39:22,728 - Process-104[MainThread] - TaskManager          - DEBUG   : Checking command failure status indicator...
+2020-11-29 09:39:22,829 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Joining command thread
+2020-11-29 09:39:22,831 - Process-104[MainThread] - BrowserManager       - INFO    : BROWSER 1: EXECUTING COMMAND: ('GET', u'https://www.accuweather.com', 1, 1)
+2020-11-29 09:39:23,017 - Process-104[MainThread] - FirefoxExtension     - DEBUG   : Visit Id: 1
+2020-11-29 09:39:25,594 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 155
+2020-11-29 09:39:30,876 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 36
+2020-11-29 09:39:36,135 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:39:41,141 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:39:46,147 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:39:51,154 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:39:56,159 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:01,165 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:06,171 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:11,176 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:16,182 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:21,188 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:26,194 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:31,201 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:36,207 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:41,214 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:46,217 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:51,222 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:40:56,229 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:01,236 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:06,244 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:11,250 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:16,256 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:21,262 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:26,268 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:31,276 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:36,283 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:41,289 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:46,295 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:51,301 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:41:56,308 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:01,314 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:06,320 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:11,326 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:16,333 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:21,339 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:26,344 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:31,350 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:36,356 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:41,365 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:46,371 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:51,376 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:42:56,381 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:01,388 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:06,393 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:11,398 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:16,405 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:21,412 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:26,417 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:31,423 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:36,428 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:41,435 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:46,440 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:51,446 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:43:56,452 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:01,457 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:06,464 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:11,470 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:16,476 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:21,481 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:26,487 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:31,495 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:36,500 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:41,506 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:46,512 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:51,519 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:44:56,526 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:01,532 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:06,536 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:11,542 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:16,548 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:21,554 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:26,560 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:31,567 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:36,571 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:41,577 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:46,581 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:51,587 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:45:56,593 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:01,599 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:06,605 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:11,611 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:16,617 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:21,624 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:26,629 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:31,636 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:36,642 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:41,648 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:46,654 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:51,661 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:46:56,667 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:01,671 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:06,677 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:11,683 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:16,688 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:21,693 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:26,699 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:31,704 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:36,710 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:41,716 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:47:42,929 - Process-104[Thread-2  ] - TaskManager          - INFO    : BROWSER 1: Timeout while executing command, GET, killing browser manager
+2020-11-29 09:47:42,930 - Process-104[Thread-2  ] - TaskManager          - DEBUG   : BROWSER 1: Browser restart required
+2020-11-29 09:47:44,977 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: 502.146789 seconds to join command thread
+2020-11-29 09:47:44,978 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Killing browser manager...
+2020-11-29 09:47:44,978 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Attempting to kill BrowserManager with pid 38647. Display PID: 38701 | Display Port: 0 | Browser PID: 38795
+2020-11-29 09:47:44,978 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Display process does not exit
+2020-11-29 09:47:44,978 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Screen lockfile (/tmp/.X0-lock) already removed
+2020-11-29 09:47:45,080 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Geckodriver process already killed.
+2020-11-29 09:47:45,080 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: during_init=False | profile_archive_dir=data/20_50/adult_5_8
+2020-11-29 09:47:45,080 - Process-104[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Archiving browser profile directory to data/20_50/adult_5_8
+2020-11-29 09:47:45,082 - Process-104[MainThread] - profile_commands     - DEBUG   : BROWSER 1: Backing up full profile from /tmp/rust_mozprofile.GWxKflO9OWuQ/ to data/20_50/adult_5_8/profile.tar.gz
+2020-11-29 09:47:45,267 - Process-104[MainThread] - profile_commands     - WARNING : BROWSER 1: /tmp/rust_mozprofile.GWxKflO9OWuQ/webapps NOT FOUND IN profile folder, skipping.
+2020-11-29 09:47:45,275 - Process-104[MainThread] - profile_commands     - DEBUG   : BROWSER 1: SAVING /home/maaz/.macromedia/Flash_Player/#SharedObjects during flash file archive
+2020-11-29 09:47:45,277 - Process-104[MainThread] - profile_commands     - DEBUG   : BROWSER 1: SAVING /home/maaz/.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys during flash file archive
+2020-11-29 09:47:45,291 - Process-104[MainThread] - BaseAggregator       - DEBUG   : Sending the shutdown signal to the LocalAggregator listener process...
+2020-11-29 09:47:45,961 - Process-104[MainThread] - BaseAggregator       - INFO    : Received shutdown signal!
+2020-11-29 09:47:49,017 - Process-104[MainThread] - BaseAggregator       - DEBUG   : LocalAggregator took 3.7251970768 seconds to close.
+2020-11-29 09:58:59,282 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Spawn attempt 0 
+2020-11-29 09:58:59,311 - Process-174[MainThread] - deploy_firefox       - DEBUG   : BROWSER 1: Loading initial browser profile from: data/20_50/adult_5_8
+2020-11-29 09:58:59,312 - Process-174[MainThread] - profile_commands     - DEBUG   : BROWSER 1: Copying profile tar from data/20_50/adult_5_8/profile.tar.gz to /tmp/tmpxRMG8k/
+2020-11-29 09:58:59,443 - Process-174[MainThread] - profile_commands     - DEBUG   : BROWSER 1: Tarfile extracted
+2020-11-29 09:58:59,444 - Process-174[MainThread] - profile_commands     - DEBUG   : BROWSER 1: CLEARING /home/maaz/.macromedia/Flash_Player/#SharedObjects before loading flash files
+2020-11-29 09:58:59,444 - Process-174[MainThread] - profile_commands     - DEBUG   : BROWSER 1: CLEARING /home/maaz/.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys before loading flash files
+2020-11-29 09:58:59,635 - Process-174[MainThread] - deploy_firefox       - DEBUG   : BROWSER 1: OpenWPM Firefox extension loaded
+2020-11-29 09:59:01,667 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661939675	geckodriver	INFO	Listening on 127.0.0.1:42843
+2020-11-29 09:59:01,667 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661940871	mozprofile::profile	INFO	Using profile path /tmp/rust_mozprofile.aG1cmzxk66SF
+2020-11-29 09:59:01,667 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941004	geckodriver::marionette	INFO	Starting browser /home/data/maaz/Ads/20v50/firefox-bin/firefox-bin with args []
+2020-11-29 09:59:01,668 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941039	geckodriver::marionette	INFO	Connecting to Marionette on localhost:35753
+2020-11-29 09:59:01,668 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941450	addons.manager	DEBUG	Application has been upgraded
+2020-11-29 09:59:01,668 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941470	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+2020-11-29 09:59:01,668 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941472	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+2020-11-29 09:59:01,668 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941478	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+2020-11-29 09:59:01,669 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941480	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+2020-11-29 09:59:01,669 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941482	addons.manager	DEBUG	Starting provider: XPIProvider
+2020-11-29 09:59:01,669 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941482	addons.xpi	DEBUG	startup
+2020-11-29 09:59:01,669 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941482	addons.xpi	INFO	Mapping @openwpm to /home/data/tmp/rust_mozprofile.aG1cmzxk66SF/extensions/@openwpm
+2020-11-29 09:59:01,669 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941482	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2020-11-29 09:59:01,669 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941484	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 09:59:01,669 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941484	addons.xpi	INFO	Mapping webcompat@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 09:59:01,670 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941484	addons.xpi	INFO	Mapping firefox@getpocket.com to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 09:59:01,670 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941484	addons.xpi	INFO	Mapping aushelper@mozilla.org to /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 09:59:01,670 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941484	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+2020-11-29 09:59:01,670 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941486	addons.xpi	DEBUG	checkForChanges
+2020-11-29 09:59:01,670 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941486	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+2020-11-29 09:59:01,670 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941486	addons.xpi	DEBUG	Loaded add-on state from prefs: {}
+2020-11-29 09:59:01,670 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941486	addons.xpi	DEBUG	New add-on @openwpm in app-profile
+2020-11-29 09:59:01,670 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941488	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941490	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941490	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941490	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941492	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941492	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941492	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941492	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941492	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2020-11-29 09:59:01,671 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941492	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+2020-11-29 09:59:01,672 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941492	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2020-11-29 09:59:01,672 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941494	addons.xpi	DEBUG	getInstallState changed: true, state: {"app-profile":{"@openwpm":{"d":"/home/data/tmp/rust_mozprofile.aG1cmzxk66SF/extensions/@openwpm","st":1606661940000,"mt":1606661940000}},"app-system-defaults":{"e10srollout@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","st":1606628784000},"webcompat@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi","st":1606628784000},"firefox@getpocket.com":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi","st":1606628784000},"aushelper@mozilla.org":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi","st":1606628784000}},"app-global":{"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"d":"/home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","st":1606628784000}}}
+2020-11-29 09:59:01,672 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941502	addons.xpi-utils	DEBUG	Opening XPI database /home/data/tmp/rust_mozprofile.aG1cmzxk66SF/extensions.json
+2020-11-29 09:59:01,672 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941504	addons.xpi-utils	DEBUG	New add-on @openwpm installed in app-profile
+2020-11-29 09:59:01,672 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: *** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+2020-11-29 09:59:01,672 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941522	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,672 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941524	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941528	DeferredSave.extensions.json	DEBUG	Starting timer
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941532	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941532	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941538	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941540	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941546	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941546	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941550	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,673 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941552	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941556	DeferredSave.extensions.json	DEBUG	Starting write
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941562	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941562	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941562	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941562	addons.manager	DEBUG	Registering startup change 'installed' for @openwpm
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941572	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/tmp/rust_mozprofile.aG1cmzxk66SF/extensions/@openwpm
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941644	addons.xpi	DEBUG	Calling bootstrap method install on @openwpm version 0.0.1
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941644	addons.xpi-utils	DEBUG	Make addon app-profile:@openwpm visible
+2020-11-29 09:59:01,674 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941648	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941648	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941648	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941648	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941650	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 1.10
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941652	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941652	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941652	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941654	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941654	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,675 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941654	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+2020-11-29 09:59:01,676 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941654	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 09:59:01,676 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941656	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.0
+2020-11-29 09:59:01,676 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941656	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+2020-11-29 09:59:01,676 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941656	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,676 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941656	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,676 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941658	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+2020-11-29 09:59:01,677 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941658	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 09:59:01,677 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941662	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+2020-11-29 09:59:01,677 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941662	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+2020-11-29 09:59:01,677 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941662	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,677 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941662	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,677 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941662	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+2020-11-29 09:59:01,677 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941664	addons.xpi	DEBUG	Loading bootstrap scope from /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 09:59:01,701 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941666	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+2020-11-29 09:59:01,701 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941666	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+2020-11-29 09:59:01,702 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941666	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,702 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941666	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,702 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941668	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+2020-11-29 09:59:01,702 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941668	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,702 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941668	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,702 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941668	addons.xpi	DEBUG	Updating XPIState for {"id":"@openwpm","syncGUID":"{63b424bb-03dd-4174-9f0a-2793f98aeba7}","location":"app-profile","version":"0.0.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"openwpm","description":"Extension with socket interface into OpenWPM","creator":"Steven Englehardt","homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/tmp/rust_mozprofile.aG1cmzxk66SF/extensions/@openwpm","installDate":1606661940000,"updateDate":1606661940000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":84784,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"38.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":false,"signedState":0,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:59:01,703 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941668	addons.xpi	DEBUG	getModTime: Recursive scan of @openwpm
+2020-11-29 09:59:01,703 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941670	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{11d5ed87-14b3-4738-a8c8-5721791eb453}","location":"app-system-defaults","version":"1.10","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8145,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:59:01,703 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941670	addons.xpi	DEBUG	getModTime: Recursive scan of e10srollout@mozilla.org
+2020-11-29 09:59:01,703 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941670	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{928e8f5d-2b3a-4a62-8d86-66e1b71e2419}","location":"app-system-defaults","version":"1.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":1456,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:59:01,703 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941670	addons.xpi	DEBUG	getModTime: Recursive scan of webcompat@mozilla.org
+2020-11-29 09:59:01,703 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941670	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{30a0d532-8b6d-4c76-8878-55c030039389}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":920281,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:59:01,704 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941670	addons.xpi	DEBUG	getModTime: Recursive scan of firefox@getpocket.com
+2020-11-29 09:59:01,704 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941670	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{ceddc123-8c59-4882-b4a5-a387db546cc8}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"bootstrap":true,"skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false}
+2020-11-29 09:59:01,704 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941670	addons.xpi	DEBUG	getModTime: Recursive scan of aushelper@mozilla.org
+2020-11-29 09:59:01,704 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941672	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{28818a32-898e-4036-b46a-11aaf0e5aaaf}","location":"app-global","version":"52.9.0","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"icons":{"32":"icon.png","48":"icon.png"},"iconURL":null,"icon64URL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"descriptor":"/home/data/maaz/Ads/20v50/firefox-bin/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","installDate":1606628784000,"updateDate":1606628784000,"applyBackgroundUpdates":1,"skinnable":true,"size":4932,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.9.0","maxVersion":"52.9.0"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false}
+2020-11-29 09:59:01,704 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941672	addons.xpi	DEBUG	getModTime: Recursive scan of {972ce4c6-7e08-4474-a285-3208198ce6fd}
+2020-11-29 09:59:01,704 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941672	addons.xpi	DEBUG	Add-on @openwpm blocks e10s rollout.
+2020-11-29 09:59:01,705 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941672	DeferredSave.extensions.json	DEBUG	Save changes
+2020-11-29 09:59:01,705 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941672	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+2020-11-29 09:59:01,705 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941672	addons.xpi-utils	DEBUG	Updating add-on states
+2020-11-29 09:59:01,705 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941674	addons.xpi-utils	DEBUG	Writing add-ons list
+2020-11-29 09:59:01,705 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941676	addons.xpi	DEBUG	Registering manifest for /home/data/tmp/rust_mozprofile.aG1cmzxk66SF/extensions/@openwpm
+2020-11-29 09:59:01,705 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941678	addons.xpi	DEBUG	Calling bootstrap method startup on @openwpm version 0.0.1
+2020-11-29 09:59:01,705 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941682	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/aushelper@mozilla.org.xpi
+2020-11-29 09:59:01,705 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941684	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+2020-11-29 09:59:01,706 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941684	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/e10srollout@mozilla.org.xpi
+2020-11-29 09:59:01,706 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941686	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 1.10
+2020-11-29 09:59:01,706 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941686	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/firefox@getpocket.com.xpi
+2020-11-29 09:59:01,706 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941686	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+2020-11-29 09:59:01,706 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941688	addons.xpi	DEBUG	Registering manifest for /home/data/maaz/Ads/20v50/firefox-bin/browser/features/webcompat@mozilla.org.xpi
+2020-11-29 09:59:01,706 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941688	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.0
+2020-11-29 09:59:01,706 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941692	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+2020-11-29 09:59:01,707 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941692	addons.manager	DEBUG	Provider finished startup: XPIProvider
+2020-11-29 09:59:01,707 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941692	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+2020-11-29 09:59:01,707 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941692	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+2020-11-29 09:59:01,707 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941692	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+2020-11-29 09:59:01,707 - Process-174[log-interceptor-1] - selenium_firefox     - DEBUG   : BROWSER 1: driver: 1606661941692	addons.manager	DEBUG	Starting provider: GMPProvider
+2020-11-29 09:59:04,287 - Process-174[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:59:07,763 - Process-174[MainThread] - FirefoxExtension     - DEBUG   : Cookie instrumentation enabled
+2020-11-29 09:59:07,763 - Process-174[MainThread] - FirefoxExtension     - DEBUG   : HTTP Instrumentation enabled
+2020-11-29 09:59:07,869 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Looking for extension port information in /tmp/rust_mozprofile.aG1cmzxk66SF/
+2020-11-29 09:59:07,871 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Connecting to extension on port 37421
+2020-11-29 09:59:07,873 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: BrowserManager ready.
+2020-11-29 09:59:07,875 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Browser spawn sucessful!
+2020-11-29 09:59:08,539 - Process-174[MainThread] - TaskManager          - INFO    : 
+
+OpenWPM Version: 44dd020
+Firefox Version: 52.9.0
+
+========== Manager Configuration ==========
+{
+  "aggregator_address": [
+    "127.0.0.1",
+    55589
+  ],
+  "data_directory": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8",
+  "database_name": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/3_crawl-data.sqlite",
+  "failure_limit": null,
+  "log_directory": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8",
+  "log_file": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/openwpm.log",
+  "logger_address": [
+    "127.0.0.1",
+    38491
+  ],
+  "num_browsers": 1,
+  "output_format": "local",
+  "screenshot_path": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/screenshots",
+  "source_dump_path": "/home/data/maaz/Ads/20v50/data/20_50/adult_5_8/sources",
+  "testing": false
+}
+
+========== Browser Configuration ==========
+Keys:
+{
+  "crawl_id": 0,
+  "Ad_Sites": 1,
+  "Browser_Config": 2,
+  "Browser_Config_Def": 3,
+  "Intent": 4,
+  "Intent_Sites": 5,
+  "Manager_Config": 6,
+  "Manager_Config_Def": 7,
+  "Number_of_Browsers": 8,
+  "Persona_Name": 9,
+  "Persona_Numb": 10,
+  "Persona_Path": 11,
+  "Sites": 12,
+  "Storage_File": 13,
+  "adblock-plus": 14,
+  "bot_mitigation": 15,
+  "browser": 16,
+  "cookie_instrument": 17,
+  "disable_flash": 18,
+  "disconnect": 19,
+  "donottrack": 20,
+  "extension_enabled": 21,
+  "ghostery": 22,
+  "headless": 23,
+  "http_instrument": 24,
+  "https-everywhere": 25,
+  "js_instrument": 26,
+  "prefs": 27,
+  "random_attributes": 28,
+  "save_all_content": 29,
+  "save_javascript": 30,
+  "storage_file": 31,
+  "tp_cookies": 32,
+  "tracking-protection": 33,
+  "ublock-origin": 34
+}
+
+  0  1                                 2                                                 3                            4         5    6                                                 7                              8  9             10  11             12                                                                                                                                          13          14     15    16       17    18     19     20     21    22     23    24    25     26     27    28     29     30     31          32      33     34
+---  --------------------------------  ------------------------------------------------  ---------------------------  --------  ---  ------------------------------------------------  ---------------------------  ---  ----------  ----  -------------  ------------------------------------------------------------------------------------------------------------------------------------------  ----------  -----  ----  -------  ----  -----  -----  -----  ----  -----  ----  ----  -----  -----  ----  -----  -----  -----  ----------  ------  -----  -----
+  1  [u'https://www.accuweather.com']  config/20_50/Adult/5_Adult_browser_params_8.json  default_browser_params.json  NoIntent  []   config/20_50/Adult/5_Adult_manager_params_8.json  default_manager_params.json    1  Adult.json     8  data/personas  [u'http://www.xvideos.com', u'http://www.chaturbate.com', u'http://www.xnxx.com', u'http://www.youporn.com', u'http://www.livejasmin.com']  storage.js  False  True  firefox  True  False  False  False  True  False  True  True  False  False  {}    False  False  False  storage.js  always  False  False
+
+========== Input profile tar files ==========
+{
+  "1": "data/20_50/adult_5_8"
+}
+
+========== Output (archive) profile dirs ==========
+{
+  "1": "data/20_50/adult_5_8"
+}
+
+
+2020-11-29 09:59:09,293 - Process-174[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:59:14,298 - Process-174[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:59:19,302 - Process-174[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:59:24,308 - Process-174[MainThread] - BaseAggregator       - DEBUG   : Status update; current record queue size: 0
+2020-11-29 09:59:27,231 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Killing browser manager...
+2020-11-29 09:59:27,231 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Attempting to kill BrowserManager with pid 50091. Display PID: 50149 | Display Port: 0 | Browser PID: 50245
+2020-11-29 09:59:27,232 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Screen lockfile (/tmp/.X0-lock) already removed
+2020-11-29 09:59:27,314 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Geckodriver process already killed.
+2020-11-29 09:59:27,314 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: during_init=False | profile_archive_dir=data/20_50/adult_5_8
+2020-11-29 09:59:27,314 - Process-174[MainThread] - BrowserManager       - DEBUG   : BROWSER 1: Archiving browser profile directory to data/20_50/adult_5_8
+2020-11-29 09:59:27,315 - Process-174[MainThread] - profile_commands     - DEBUG   : BROWSER 1: Backing up full profile from /tmp/rust_mozprofile.aG1cmzxk66SF/ to data/20_50/adult_5_8/profile.tar.gz
+2020-11-29 09:59:27,436 - Process-174[MainThread] - profile_commands     - WARNING : BROWSER 1: /tmp/rust_mozprofile.aG1cmzxk66SF/webapps NOT FOUND IN profile folder, skipping.
+2020-11-29 09:59:27,444 - Process-174[MainThread] - profile_commands     - DEBUG   : BROWSER 1: SAVING /home/maaz/.macromedia/Flash_Player/#SharedObjects during flash file archive
+2020-11-29 09:59:27,445 - Process-174[MainThread] - profile_commands     - DEBUG   : BROWSER 1: SAVING /home/maaz/.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys during flash file archive
+2020-11-29 09:59:27,452 - Process-174[MainThread] - BaseAggregator       - DEBUG   : Sending the shutdown signal to the LocalAggregator listener process...
+2020-11-29 09:59:28,312 - Process-174[MainThread] - BaseAggregator       - INFO    : Received shutdown signal!
+2020-11-29 09:59:31,376 - Process-174[MainThread] - BaseAggregator       - DEBUG   : LocalAggregator took 3.92372012138 seconds to close.
