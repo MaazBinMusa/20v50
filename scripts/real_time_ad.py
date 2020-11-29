@@ -13,10 +13,10 @@ import json
 
 st = time.time()
 psl = PublicSuffixList()
-easylist = BlockListParser.BlockListParser('scripts/parser/abpList/easylist.txt')
-easyprivacy = BlockListParser.BlockListParser('scripts/parser/abpList/easyprivacy.txt')
+#opt/OpenWPM/
+easylist = BlockListParser.BlockListParser('opt/OpenWPM/scripts/parser/abpList/easylist.txt')
+easyprivacy = BlockListParser.BlockListParser('opt/OpenWPM/scripts/parser/abpList/easyprivacy.txt')
 bu = blocklistparserutils()
-
 
 def to_csv(path):
 	if(os.path.exists(path+'/2_crawl-data.sqlite') == False):

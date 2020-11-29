@@ -1,4 +1,0 @@
-index,crawl_id,visit_id,command,arguments,bool_success,dtg
-0,1,1,GET,https://www.accuweather.com,1,2020-11-29 14:21:41
-1,1,1,RUN_CUSTOM_FUNCTION,<function callGet at 0x7fb8c83fc1d0>,1,2020-11-29 14:21:41
-2,1,1,RUN_CUSTOM_FUNCTION,<function real_time_ad at 0x7fb937319a50>,1,2020-11-29 14:21:42

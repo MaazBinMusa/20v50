@@ -15,7 +15,7 @@ for file in os.listdir(personas_path):
 	d = json.loads(f)
 	data[file.replace('.json','')] = d[list(d.keys())[0]]
 
-for nsites in [5,10,15,25,50]:
+for nsites in [5,10,15,20,25,50]:
 	new_data = {}
 	for cat in data:
 		new_data[cat] = data[cat][:nsites]
