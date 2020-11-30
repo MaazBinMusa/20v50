@@ -37,8 +37,8 @@ for nsites in [5,10,15,20,25,50]:
 			with open(os.path.join(temp,'{}_{}_browser_params_{}.json'.format(nsites,persona_name,str(i))),'w') as json_file:
 				t_browser_param 				      = d_browser_param
 				t_browser_param["Persona_Path"]		  = "data/personas"
-				t_browser_param["profile_archive_dir"]= "data/{}/{}_{}_{}".format(phase,persona_name.lower().lower(),nsites,str(i))
-				t_browser_param["profile_tar"]		  = "data/{}/{}_{}_{}".format(phase,persona_name.lower().lower(),nsites,str(i))
+				t_browser_param["profile_archive_dir"]    = "data/{}/{}_{}_{}".format(phase,nsites,persona_name,str(i))
+				t_browser_param["profile_tar"]		  = "data/{}/{}_{}_{}".format(phase,nsites,persona_name,str(i))
 				t_browser_param["Persona_Name"]		  = persona_name+".json"
 				t_browser_param["Persona_Numb"]       = i
 				t_browser_param["Browser_Config"]	  = "config/{}/{}/{}_{}_browser_params_{}.json".format(phase,persona_name,nsites,persona_name,str(i))
@@ -60,4 +60,5 @@ for nsites in [5,10,15,20,25,50]:
 				json.dump(d_manager_param, json_file , indent=2)
 
 
+			os.makedirs("../data/20_50/{}_{}_{}".format(str(nsites),persona_name,str(i)))
 			i += 1

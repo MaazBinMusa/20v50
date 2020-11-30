@@ -6,7 +6,7 @@ def getvars(s,i,r):
 	
 	varlist        = []
 	number         = str(i)
-	containername  = s+number+'_'+str(i)
+	containername  = s+'_'+s+number+'_'+str(i)
 	configfile     = str(r)+'_'+s+'_browser_params_'+str(number)
 	mangerfile     = configfile.replace("_browser","_manager")
 	persona		   = str(r)+'_'+s+'_'+str(number)
@@ -38,7 +38,8 @@ def process_docker(s,r):
 
 		try:
 			oput,err = process.communicate(timeout=5400)
-		except:
+		except Exception as e:
+			print(str(e))
 			cmd = ['sudo','docker','rm','-f',varlist[1]]
 			process = subprocess.Popen(cmd)
 			oput,err = process.communicate()
@@ -60,6 +61,7 @@ def process_docker(s,r):
 		sudopass = 'cRVuMnmB4S'
 		os.system('echo %s | sudo -S docker images' % (sudopass))
 		os.system('sudo docker rm $(sudo docker ps --all -q -f status=exited)')
+		break
 
 def collect_ads(s,varlist):
 
@@ -139,4 +141,5 @@ def monitor_ad(s,r):
 					collect_ads(s,varlist)
 					incomplete = False
 			time.sleep(20)
+		
 	return

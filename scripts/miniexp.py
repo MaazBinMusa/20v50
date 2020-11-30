@@ -13,7 +13,7 @@ for d in os.listdir('../data/personas/'):
 		sets.append(part)
 
 for s in sets:
-
+	s  = "Games"
 	p1 = multiprocessing.Process(target=process_docker, args=(s,5))
 	# p2 = multiprocessing.Process(target=process_docker, args=(s,10))
 	# p3 = multiprocessing.Process(target=process_docker, args=(s,15))
@@ -29,17 +29,18 @@ for s in sets:
 	# p6.start()
 
 
-	b1 = multiprocessing.Process(target=monitor_ad, args=(s,5))
+	#b1 = multiprocessing.Process(target=monitor_ad, args=(s,5))
 	# b2 = multiprocessing.Process(target=monitor_ad, args=(s,10))
 	# b3 = multiprocessing.Process(target=monitor_ad, args=(s,15))
 	# b4 = multiprocessing.Process(target=monitor_ad, args=(s,20))
 	# b5 = multiprocessing.Process(target=monitor_ad, args=(s,25))
 	# b6 = multiprocessing.Process(target=monitor_ad, args=(s,50))
 
-	b1.start()
+	#b1.start()
 	# b2.start()
 	# b3.start()
 	# b4.start()
 	# b5.start()
 	# b6.start()
+	break
 
