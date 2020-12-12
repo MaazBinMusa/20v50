@@ -77,7 +77,7 @@ def collect_ads(s,varlist):
 	os.chdir('../../../scripts')
 
 	## Get HB Ads
-	cmd = ['sudo','docker', 'run','-v','{}/automation/TaskManager.py:/opt/OpenWPM/automation/TaskManager.py'.format(cwd),'-v','{}/config/20_50/{}/{}.json:/opt/OpenWPM/config/20_50/{}/{}.json'.format(cwd,s,varlist[2],s,varlist[2]),'-v','{}/config/20_50/{}/{}.json:/opt/OpenWPM/config/20_50/{}/{}.json'.format(cwd,s,varlist[3],s,varlist[3]),'-v','{}/flask_data:/opt/OpenWPM/flask_data'.format(cwd),'-v','{}/demo.py:/opt/OpenWPM/demo.py'.format(cwd),'-v', '{}/data/20_50/{}/:/opt/OpenWPM/data/20_50/{}'.format(cwd,varlist[0],varlist[0]), '--name', varlist[1]+'_2', '--shm-size=2g', 'openwpm', 'python', '/opt/OpenWPM/demo.py','config/20_50/{}/{}.json'.format(s,varlist[3]),'2']
+	cmd = ['sudo','docker', 'run','-v','{}/automation/TaskManager.py:/opt/OpenWPM/automation/TaskManager.py'.format(cwd),'-v','{}/config/20_50/{}/{}.json:/opt/OpenWPM/config/20_50/{}/{}.json'.format(cwd,s,varlist[2],s,varlist[2]),'-v','{}/config/20_50/{}/{}.json:/opt/OpenWPM/config/20_50/{}/{}.json'.format(cwd,s,varlist[3],s,varlist[3]),'-v','{}/flask_data:/opt/OpenWPM/flask_data'.format(cwd),'-v','{}/demo.py:/opt/OpenWPM/demo.py'.format(cwd),'-v', '{}/data/20_50/{}/:/opt/OpenWPM/data/20_50/{}'.format(cwd,varlist[0],varlist[0]), '--name', varlist[1]+'_2', '--shm-size=2g', 'openwpm', 'python', '/opt/OpenWPM/demo.py','config/20_50/{}/{}.json'.format(s,varlist[2]),'2']
 	process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 	try:
 		oput,err = process.communicate(timeout=5400)
@@ -87,7 +87,7 @@ def collect_ads(s,varlist):
 		oput,err = process.communicate()
 
 	## Get RTB Ads
-	cmd = ['sudo','docker', 'run','-v','{}/automation/TaskManager.py:/opt/OpenWPM/automation/TaskManager.py'.format(cwd),'-v','{}/config/20_50/{}/{}.json:/opt/OpenWPM/config/20_50/{}/{}.json'.format(cwd,s,varlist[2],s,varlist[2]),'-v','{}/config/20_50/{}/{}.json:/opt/OpenWPM/config/20_50/{}/{}.json'.format(cwd,s,varlist[3],s,varlist[3]),'-v','{}/flask_data:/opt/OpenWPM/flask_data'.format(cwd),'-v','{}/demo.py:/opt/OpenWPM/demo.py'.format(cwd),'-v', '{}/data/20_50/{}/:/opt/OpenWPM/data/20_50/{}'.format(cwd,varlist[0],varlist[0]), '--name', varlist[1]+'_3', '--shm-size=2g', 'openwpm', 'python', '/opt/OpenWPM/demo.py','config/20_50/{}/{}.json'.format(s,varlist[3]),'3']
+	cmd = ['sudo','docker', 'run','-v','{}/automation/TaskManager.py:/opt/OpenWPM/automation/TaskManager.py'.format(cwd),'-v','{}/config/20_50/{}/{}.json:/opt/OpenWPM/config/20_50/{}/{}.json'.format(cwd,s,varlist[2],s,varlist[2]),'-v','{}/config/20_50/{}/{}.json:/opt/OpenWPM/config/20_50/{}/{}.json'.format(cwd,s,varlist[3],s,varlist[3]),'-v','{}/flask_data:/opt/OpenWPM/flask_data'.format(cwd),'-v','{}/demo.py:/opt/OpenWPM/demo.py'.format(cwd),'-v', '{}/data/20_50/{}/:/opt/OpenWPM/data/20_50/{}'.format(cwd,varlist[0],varlist[0]), '--name', varlist[1]+'_3', '--shm-size=2g', 'openwpm', 'python', '/opt/OpenWPM/demo.py','config/20_50/{}/{}.json'.format(s,varlist[2]),'3']
 	process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 	try:
 		oput1,err1 = process.communicate(timeout=5400)
