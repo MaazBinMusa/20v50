@@ -9,17 +9,26 @@ sets = []
 
 for d in os.listdir('../data/personas/'):
 	part = d.split('.json')[0]
+
+	if(part != "All"):
+		continue
+
 	if part not in sets:
 		sets.append(part)
 
+print(sets)
+exit()
+
 for s in sets:
-	s  = "Games"
+
 	p1 = multiprocessing.Process(target=process_docker, args=(s,5))
 	# p2 = multiprocessing.Process(target=process_docker, args=(s,10))
 	# p3 = multiprocessing.Process(target=process_docker, args=(s,15))
 	# p4 = multiprocessing.Process(target=process_docker, args=(s,20))
 	# p5 = multiprocessing.Process(target=process_docker, args=(s,25))
 	# p6 = multiprocessing.Process(target=process_docker, args=(s,50))
+	# p7 = multiprocessing.Process(target=process_docker, args=(s,75))
+	# p8 = multiprocessing.Process(target=process_docker, args=(s,100))
 
 	p1.start()
 	# p2.start()
@@ -27,6 +36,8 @@ for s in sets:
 	# p4.start()
 	# p5.start()
 	# p6.start()
+	# p7.start()
+	# p8.start()
 
 
 	#b1 = multiprocessing.Process(target=monitor_ad, args=(s,5))
@@ -35,6 +46,8 @@ for s in sets:
 	# b4 = multiprocessing.Process(target=monitor_ad, args=(s,20))
 	# b5 = multiprocessing.Process(target=monitor_ad, args=(s,25))
 	# b6 = multiprocessing.Process(target=monitor_ad, args=(s,50))
+	# b7 = multiprocessing.Process(target=monitor_ad, args=(s,75))
+	# b8 = multiprocessing.Process(target=monitor_ad, args=(s,100))
 
 	#b1.start()
 	# b2.start()
@@ -42,5 +55,7 @@ for s in sets:
 	# b4.start()
 	# b5.start()
 	# b6.start()
+	# b7.start()
+	# b8.start()
 	break
 

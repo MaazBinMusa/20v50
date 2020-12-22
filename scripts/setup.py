@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import random
 
 personas_path = "../data/personas"
 phase = "20_50"
@@ -11,14 +12,19 @@ d_manager_param = json.loads(open('../automation/default_manager_params.json','r
 
 
 for file in os.listdir(personas_path):
+
+	if(file != "All.json"):
+		continue
+
 	f = open(os.path.join(personas_path,file),'r').read()
 	d = json.loads(f)
 	data[file.replace('.json','')] = d[list(d.keys())[0]]
 
-for nsites in [5,10,15,20,25,50]:
+
+for nsites in [5,10,15,20,25,50,75,100]:
 	new_data = {}
 	for cat in data:
-		new_data[cat] = data[cat][:nsites]
+		new_data[cat] = random.sample(data[cat], nsites)
 
 	NUM = 10
 
