@@ -16,8 +16,6 @@ for d in os.listdir('../data/personas/'):
 	if part not in sets:
 		sets.append(part)
 
-print(sets)
-exit()
 
 for s in sets:
 
