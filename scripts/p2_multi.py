@@ -6,7 +6,7 @@ def getvars(s,i,r):
 	
 	varlist        = []
 	number         = str(i)
-	containername  = s+'_'+s+number+'_'+str(i)
+	containername  = s+'_'+s+number+'_'+str(i)+"_"+str(r)
 	configfile     = str(r)+'_'+s+'_browser_params_'+str(number)
 	mangerfile     = configfile.replace("_browser","_manager")
 	persona		   = str(r)+'_'+s+'_'+str(number)
@@ -23,7 +23,7 @@ def process_docker(s,r):
 	for i in range(1,11):
 		
 		varlist = getvars(s,i,r)
-
+		print(varlist)
 		os.chdir('..')
 		cwd = os.getcwd()
 		os.chdir('scripts')
@@ -37,7 +37,7 @@ def process_docker(s,r):
 		process  = subprocess.Popen(cmd,stdout=subprocess.PIPE,stderr=subprocess.PIPE)
 
 		try:
-			oput,err = process.communicate(timeout=5400)
+			oput,err = process.communicate(timeout=54000)
 		except Exception as e:
 			print(str(e))
 			cmd = ['sudo','docker','rm','-f',varlist[1]]
@@ -61,7 +61,6 @@ def process_docker(s,r):
 		sudopass = 'cRVuMnmB4S'
 		os.system('echo %s | sudo -S docker images' % (sudopass))
 		os.system('sudo docker rm $(sudo docker ps --all -q -f status=exited)')
-		break
 
 def collect_ads(s,varlist):
 
@@ -127,7 +126,7 @@ def monitor_ad(s,r):
 	for i in range(1,11):
 		incomplete = True
 		varlist = getvars(s,i,r)
-		
+		print("Monitoring All {} {}".format(str(r),str(i)))
 		while(incomplete):
 			for d in os.listdir(os.path.join("../data/20_50",varlist[0])):
 				if(d == 'timestamp.txt'):
@@ -138,6 +137,7 @@ def monitor_ad(s,r):
 					while(cts - ts < 7200):
 						time.sleep(10)
 						cts = time.time()
+					print("Monitor docker started {} {}".format(str(r),str(i)))
 					collect_ads(s,varlist)
 					incomplete = False
 			time.sleep(20)

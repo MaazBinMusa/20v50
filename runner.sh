@@ -1,10 +1,10 @@
 docker rm $(docker ps -a -q)
 rm -r data/Phase1
 
-cd scripts
-python setup.py
+#cd scripts
+#python setup.py
 
-cd ..
+#cd ..
 chmod -R 777 .
 chmod -R 777 ./
 

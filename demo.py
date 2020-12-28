@@ -121,7 +121,7 @@ if(os.path.exists(persona_path)):
         print("[Starting Persona Training]-----")
     else:
         print("[Persona Type Does Not Exist] ----- CRITICAL, EXITING")
-        exit()
+        #exit()
 else:
     print("[Persona Folder Not Available] ----- CRITICAL, EXITING")
     exit()
