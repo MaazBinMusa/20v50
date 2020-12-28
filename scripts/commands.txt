@@ -1,3 +1,6 @@
 sudo docker run -v /home/data/maaz/Ads/H1/hbsi/flask_data:/opt/OpenWPM/flask_data -v /home/data/maaz/Ads/H1/hbsi/demo.py:/opt/OpenWPM/demo.py -v /home/data/maaz/Ads/H1/hbsi/data/Phase1/sports_Intent_1/:/opt/OpenWPM/data/Phase1/sports_Intent_1 -v /home/data/maaz/Ads/H1/hbsi/scripts/real_time_ad.py:/opt/OpenWPM/scripts/real_time_ad.py -it openwpm
 
 python opt/OpenWPM/demo.py config/Phase1/Sports/Intent_Sports_browser_params_1.json 1
+
+
+sudo rm -r ../data/20_50/* && sudo rm -r ../config/* && python setup.py && cd ../ && sudo chmod -R 777 . && sudo chmod -R 777 ./ && cd scripts

@@ -5,7 +5,7 @@ import imagehash
 from tqdm import tqdm
 from datetime import datetime
 
-img_path = '../../flask/static'
+img_path = '../flask/static'
 flask_pt = '../flask'
 per_path = '../data/20_50'
 
@@ -13,9 +13,8 @@ def run_finder(path):
 
 	w = 0
 	for d in os.listdir(path):
-		##weekx_final.json
+		
 		if('run' in d and 'zip' not in d):
-			print(d)
 			t = d.split("_")[0][-1]
 			t = int(t)
 			if(t > w):
@@ -95,8 +94,8 @@ def final_creator(run):
 
 def backup(path,run):
 	print("[BACKING EVERYTHING UP]-------------")
-	os.system("zip -r -q {} ../data/Phase1/".format(run))
-	os.system("mv {}* ../../flask_test/Zips".format(run))
+	os.system("zip -r -q {} {}".format(run,path))
+	os.system("mv {}* ../flask/Zips".format(run))
 
 
 	return
