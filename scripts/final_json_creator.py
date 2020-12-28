@@ -5,9 +5,9 @@ import imagehash
 from tqdm import tqdm
 from datetime import datetime
 
-img_path = '../../flask_test/static'
-flask_pt = '../../flask_test'
-per_path = '../data/Phase1'
+img_path = '../../flask/static'
+flask_pt = '../flask'
+per_path = '../data/20_50'
 
 def run_finder(path):
 
