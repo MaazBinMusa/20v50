@@ -77,7 +77,7 @@ def final_creator(run):
 						temp = json.load(file)
 					
 					try:
-						temp['img_hash'] = calculate_hash(os.path.join(path,d,i))
+						temp['img_hash'] = calculate_hash(key_png)
 					except:
 						continue
 

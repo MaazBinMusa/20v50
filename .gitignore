@@ -1,3 +1,4 @@
 config/
 data/
 flask/static
+flask/Zips
