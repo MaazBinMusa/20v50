@@ -13,7 +13,7 @@ d_manager_param = json.loads(open('../automation/default_manager_params.json','r
 
 for file in os.listdir(personas_path):
 
-	if(file != "All.json"):
+	if(file in ["All.json","Control.json"]):
 		continue
 
 	f = open(os.path.join(personas_path,file),'r').read()
@@ -21,10 +21,13 @@ for file in os.listdir(personas_path):
 	data[file.replace('.json','')] = d[list(d.keys())[0]]
 
 
-for nsites in [5,10,15,20,25,50,75,100]:
+for nsites in [5,10,15,20,25,50]:
 	new_data = {}
 	for cat in data:
-		new_data[cat] = random.sample(data[cat], nsites)
+		if(nsites == 50):
+			new_data[cat] = data[cat]
+		else:
+			new_data[cat] = random.sample(data[cat], nsites)
 
 	NUM = 25
 

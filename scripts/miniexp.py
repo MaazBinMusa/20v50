@@ -10,7 +10,7 @@ sets = []
 for d in os.listdir('../data/personas/'):
 	part = d.split('.json')[0]
 
-	if(part != "All"):
+	if(part in ["All","Control"]):
 		continue
 
 	if part not in sets:
