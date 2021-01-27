@@ -20,7 +20,7 @@ def getvars(s,i,r):
 def process_docker(s,r):
 
 
-	for i in range(1,11):
+	for i in range(1,21):
 		
 		varlist = getvars(s,i,r)
 		print(varlist)
@@ -123,7 +123,7 @@ def collect_ads(s,varlist):
 
 def monitor_ad(s,r):
 
-	for i in range(1,11):
+	for i in range(1,21):
 		incomplete = True
 		varlist = getvars(s,i,r)
 		print("Monitoring All {} {}".format(str(r),str(i)))
