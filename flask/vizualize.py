@@ -12,7 +12,7 @@ x = []
 
 # x = [ [persona name, site num, val] , [persona name, site num, val] , [persona name, site num, val] ]
 
-with open('run4_2021-01-24_final.json','r') as file:
+with open('run5_2021-01-27_final.json','r') as file:
 	data = json.load(file)
 
 for item in data:
