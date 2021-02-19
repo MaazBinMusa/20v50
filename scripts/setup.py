@@ -29,7 +29,7 @@ for nsites in [5,10,15,20,25,50]:
 		else:
 			new_data[cat] = random.sample(data[cat], nsites)
 
-	NUM = 25
+	NUM = 100
 
 	for persona_name,value in new_data.items():
 
