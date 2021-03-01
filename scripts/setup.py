@@ -20,16 +20,19 @@ for file in os.listdir(personas_path):
 	d = json.loads(f)
 	data[file.replace('.json','')] = d[list(d.keys())[0]]
 
+with open("../data/cmb.json","r") as file:
+	data = json.load(file)
 
-for nsites in [5,10,15,20,25,50]:
+
+for nsites in [5,10,15,20,25,30,35,40,45,50]:
 	new_data = {}
 	for cat in data:
 		if(nsites == 50):
 			new_data[cat] = data[cat]
 		else:
 			new_data[cat] = random.sample(data[cat], nsites)
-
-	NUM = 100
+		new_data[cat] = data[cat][:nsites -1]
+	NUM = 40
 
 	for persona_name,value in new_data.items():
 
